@@ -1,0 +1,50 @@
+<svg width="100%" height="100%" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <rect width="100%" height="100%" fill="#0a0a0a" />
+
+  <!-- Grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.5">
+    <!-- vertical lines -->
+    <line x1="100" y1="0" x2="100" y2="800" />
+    <line x1="200" y1="0" x2="200" y2="800" />
+    <line x1="300" y1="0" x2="300" y2="800" />
+    <line x1="400" y1="0" x2="400" y2="800" />
+    <line x1="500" y1="0" x2="500" y2="800" />
+    <line x1="600" y1="0" x2="600" y2="800" />
+    <line x1="700" y1="0" x2="700" y2="800" />
+    
+    <!-- horizontal lines -->
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="0" y1="500" x2="800" y2="500" />
+    <line x1="0" y1="600" x2="800" y2="600" />
+    <line x1="0" y1="700" x2="800" y2="700" />
+  </g>
+
+  <!-- Circuit / node structure -->
+  <g stroke="#ffffff" stroke-width="0.7">
+    <!-- sample microchip pattern -->
+    <path d="M150,150 h20 v20 h-20 z" fill="none"/>
+    <path d="M170,160 h30" />
+    <circle cx="200" cy="160" r="2" fill="#ffffff" />
+    <path d="M200,160 v40" />
+    <circle cx="200" cy="200" r="2" fill="#ffffff" />
+    <path d="M200,200 h40" />
+    <circle cx="240" cy="200" r="2" fill="#ffffff" />
+    
+    <!-- diagonal connections -->
+    <path d="M500,500 l20,-20" />
+    <path d="M520,480 l20,20" />
+    <circle cx="540" cy="500" r="2" fill="#ffffff" />
+    <path d="M540,500 l30,0" />
+  </g>
+
+  <!-- Concentric circular pattern (tech mandala style) -->
+  <g stroke="#ffffff" stroke-opacity="0.15" stroke-width="0.4">
+    <circle cx="400" cy="400" r="50" fill="none"/>
+    <circle cx="400" cy="400" r="100" fill="none"/>
+    <circle cx="400" cy="400" r="150" fill="none"/>
+    <circle cx="400" cy="400" r="200" fill="none"/>
+  </g>
+</svg>
