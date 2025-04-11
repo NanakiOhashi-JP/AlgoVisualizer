@@ -31,7 +31,7 @@ export function MegaMenu({ id, title, items, columns = 3 }: MegaMenuProps) {
   return (
     <section id={id}>  {/* ここでid属性を設定 */}
       <nav className="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-        <div className="mt-1 bg-white border-gray-200 shadow-xs border-y dark:bg-gray-800 dark:border-gray-600">
+        <div className="bg-white border-gray-200 shadow-xs border-y dark:bg-gray-800 dark:border-gray-600">
           {/* タイトル部分 */}
           <div className="max-w-screen-xl px-4 py-3 mx-auto">
             <h1 className='py-5 font-semibold text-gray-900 dark:text-white'>{title}</h1>
